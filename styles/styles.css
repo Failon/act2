@@ -1,0 +1,131 @@
+*{
+	font-family: verdana;
+}
+
+body{
+	background-color: #BDC3C7;
+	text-align: right;
+}
+
+p{
+	font-size: 0.8em;
+}
+
+a{
+	text-decoration: none;
+}
+
+.access{
+	font-weight: bold;
+}
+
+#wrapper{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+h1{
+	font-size: 1.4em;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+.pwwrapper{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	overflow: hidden;
+	background-color: white;
+	height: 40px;
+	margin-bottom: 7px;
+	border-radius: 15px 0 0 0;
+	box-shadow: inset 1px 1px 0px gray;
+	justify-content: flex-start;
+}
+.pwwrapper > input{
+	box-shadow: inset 1px 1px 0px gray;
+	padding: 2px;
+	margin: 0px;
+	height: 40px;
+}
+form > input{
+	height: 40px;
+	margin-bottom: 7px;
+	box-shadow: inset 1px 1px 0px gray;
+	padding: 2px;
+}
+
+form > input:nth-child(2), form > input:nth-child(3){
+	border-radius: 0 0 15px 0;
+}
+.pwwrapper > input, form > input:nth-child(5){
+	border-radius:15px 0 0 0;
+}
+input::-webkit-input-placeholder{
+	text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"]{
+	-webkit-appearance: none;
+	appearance: none;
+	outline: 0;
+	border: 0;
+	font-size: 1em;
+}
+
+input[type="text"]:focus:invalid,
+input[type="email"]:focus:invalid{
+	background-color: #F1A9A0;
+}
+
+input[type="text"]:focus:valid,
+input[type="email"]:focus:valid{
+	background-color: #87D37C;
+}
+
+
+input[type="submit"],input[type="reset"]{
+	width: 200px;
+	height: 50px;
+	color: white;
+	font-weight: bold;
+}
+
+input[type="submit"]:hover,input[type="reset"]:hover{
+	cursor: pointer;
+}
+
+#cancel{
+	background-color: #8B0000;
+}
+
+#accept{
+	background-color: #008B8B;
+}
+
+.about{
+	color: #008B8B;
+	font-weight: bold;
+}
+#password{
+	position: relative;
+	transition: linear 0.3s;
+}
+
+.fortaleza{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 50%;
+	height: 44px;
+}
+.fortaleza:hover{
+	cursor: text;
+}
