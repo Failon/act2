@@ -72,7 +72,8 @@ input::-webkit-input-placeholder{
 input[type="text"],
 input[type="email"],
 input[type="password"],
-input[type="submit"]{
+input[type="submit"],
+input[type="reset"]{
 	-webkit-appearance: none;
 	appearance: none;
 	outline: 0;
