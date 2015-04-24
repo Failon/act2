@@ -1,17 +1,31 @@
 *{
 	font-family: verdana;
 }
+header{
+	padding-right: 1%;
+}
+header, footer{
+	background-color: #BDC3C7;
+	margin: 0px;
+}
 h1{
 	text-align: center;
 	width: 100%;
+	margin-bottom: 0px;
+	padding-bottom: 15px;
 }
 body{
-	background-color: #BDC3C7;
+	background-color: black;
 	text-align: right;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1%;
 }
 
 p{
 	font-size: 0.8em;
+	margin: 0px;
+	padding-top: 12px;
 }
 
 a{
@@ -28,6 +42,9 @@ a{
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+	background-color: #BDC3C7;
+	margin: 0px;
+
 }
 h1{
 	font-size: 1.4em;
@@ -136,4 +153,8 @@ input[type="submit"]:hover,input[type="reset"]:hover{
 }
 .fortaleza:hover{
 	cursor: text;
+}
+footer{
+	text-align: center;
+	padding-bottom: 10px;
 }
