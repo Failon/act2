@@ -65,6 +65,9 @@ form > input:nth-child(2), form > input:nth-child(3){
 .pwwrapper > input, form > input:nth-child(5){
 	border-radius:15px 0 0 0;
 }
+input{
+	text-align: center;
+}
 input::-webkit-input-placeholder{
 	text-align: center;
 }
@@ -119,6 +122,7 @@ input[type="submit"]:hover,input[type="reset"]:hover{
 	position: relative;
 	transition: linear 0.3s;
 }
+
 
 .fortaleza{
 	position: absolute;
